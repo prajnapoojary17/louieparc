@@ -1,0 +1,350 @@
+.pic {
+	border: 2px solid #eee;
+	border-radius: 50%;
+	height: 200px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	width: 200px;
+}
+
+.pic>img {
+	height: 100%;
+	max-width: 100%;
+}
+
+a.disabled {
+	opacity: 0.5 pointer-events: none cursor: default
+}
+
+.form-group label.error {
+	/*color: #dc5757 !important;*/
+	font-size: 13px !important;
+	top: 40px !important;
+}
+
+.error_box {
+	background: none repeat scroll 0 0 !important;
+	margin-bottom: 25px;
+	padding: 2px 10px;
+    color: #B2030F;
+}
+
+.payment-errors {
+	color: #B2030F;
+	padding: 2px 10px;
+}
+
+.CCServerError {
+	color: #B2030F;
+	padding: 2px 10px;
+}
+
+.sliderimg {
+	opacity: 1;
+	display: block;
+}
+/*
+#tab1 {    
+    color: black;  
+}*/
+#map {
+	height: 700px;
+}
+/*
+.controls {
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 32px;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#pac-input {
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 300px;
+}
+
+    #pac-input:focus {
+        border-color: #4d90fe;
+    }
+
+.pac-container {
+    font-family: Roboto;
+}*/
+.infoWindowContent {
+	font-size: 10px !important;
+	border-top: 1px solid #ccc;
+	padding-top: 10px;
+}
+
+.gm-style img {
+	color: #000000;
+}
+
+.maplabels {
+	font-size: 9px;
+	font-weight: bold;
+	color: black !important;
+}
+
+.price-range h3 {
+	font-size: 20px !important;
+	padding-top: 9px !important;
+}
+
+.tderror{
+border : 1px solid;
+border-color:#FF0000;
+}
+
+.starerror{
+	color: #dc5757 !important;
+	font-size: 13px !important;
+	top: 40px !important;
+	font-weight: normal;
+}
+
+    /* Cosmetic only */
+    #easyPaginate {width:300px;}
+    #easyPaginate img {display:block;margin-bottom:10px;}
+    .easyPaginateNav a {padding:5px;}
+    .easyPaginateNav a.current {font-weight:bold;text-decoration:underline;}
+	
+	
+/* The Modal (background) */
+.infoWindowContent {
+	font-size: 10px !important;
+	border-top: 1px solid #ccc;
+	padding-top: 10px;
+}
+
+.gm-style img {
+	color: #000000;
+}
+
+.maplabels {
+	font-size: 9px;
+	font-weight: bold;
+	color: black !important;
+}
+
+.price-range h3 {
+	font-size: 20px !important;
+	padding-top: 9px !important;
+}
+
+.tderror{
+border : 1px solid;
+border-color:#FF0000;
+}
+
+
+.starerror{
+	color: #dc5757 !important;
+	font-size: 13px !important;
+	top: 40px !important;
+	font-weight: normal;
+}
+
+    /* Cosmetic only */
+    #easyPaginate {width:300px;}
+    #easyPaginate img {display:block;margin-bottom:10px;}
+    .easyPaginateNav a {padding:5px;}
+    .easyPaginateNav a.current {font-weight:bold;text-decoration:underline;}
+	
+	
+.profile-email {   
+    line-height: 35px;
+    text-align: center;
+}
+.remove-image {
+    display: table;
+    font-size: 12px;
+    margin: 0 auto;
+    padding: 2px 10px;
+}
+.CCServerErrorb {
+	color: #B2030F;
+	padding: 2px 10px;
+}
+h3.sub-title {
+    background: #d20462 none repeat scroll 0 0;
+    color: #ffffff;
+    display: table;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    margin: 0 auto 10px;
+    padding: 5px 15px;
+    position: relative;
+   
+}
+h3.sub-title::before {
+    border-color: #d20462 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-width: 36px 36px 0 0;
+    content: "";
+    display: inline-block;
+    height: 100%;
+    left: 100%;
+    position: absolute;
+    top: 0;
+    width: 36px;
+}
+h3.sub-title::after {
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #d20462;
+    border-style: solid;
+    border-width: 0 0 36px 36px;
+    content: "";
+    display: inline-block;
+    height: 100%;
+    position: absolute;
+    right: 100%;
+    top: 0;
+    width: 36px;
+}
+
+
+@media screen and (max-width: 640px) {
+	h3.sub-title::before {
+		display:none;
+	}
+	h3.sub-title::after {
+		display:none;
+	}
+}
+
+h8, .h8 {
+font-size: 14px;
+	font-color: #FF5500;
+}
+
+.desc-block li {
+    background: #eeeeee none repeat scroll 0 0;
+    border-left: 3px solid #8293c9;
+    display: inline-block;
+    margin-bottom: 5px;
+    /* min-width: 900px;*/
+    padding: 10px;
+    font-size:14px;
+    color:#6868ab;
+}
+.profile-container {  
+    padding: 10px 0;  
+}
+
+.profile-left i, .profile-right i {
+    display: block;
+    font-size: 30px;
+}
+.btn-press {
+       background-color: #8293c9;
+    border-color: #6c7db3;
+    box-shadow: 50px 0 0 rgba(0, 0, 0, 0.1) inset;
+    color: #ffffff;
+    font-weight: 800;
+    padding: 10px 40px 10px 70px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    border-radius: 0%;
+    height: auto;
+     background:#8293c9 none repeat scroll 0 0;
+}
+
+.pagination > li > a, .pagination > li > span {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: #337ab7;
+    float: left;
+    line-height: 1.429;
+    margin-left: -1px;
+    padding: 6px 12px;
+    position: relative;
+    text-decoration: none;
+}
+
+div.dataTables_wrapper div.dataTables_length select {
+    display: inline-block;
+    width: 85px !important;
+}
+#card_number {
+    background-image: none;
+    padding-left: 0px;    
+}
+
+/* The Modal (background) */
+.mwindow {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 200px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.mwindow-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+
+
+
+.modal-body {padding: 2px 16px;}
+.label-primary a{
+color:white;
+}
+
+.btn-go {    
+    border-color: #6c7db3;
+    box-shadow: 50px 0 0 rgba(0, 0, 0, 0.1) inset;
+    font-weight: 800;
+    /* margin-bottom: 5px; */
+    color: #ffffff;
+    padding: 10px 40px;
+    padding-left: 70px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+}
+.btn-go i {
+    font-size: 23px;
+    left: 14px;
+    position: absolute;
+    top: 8px;
+}
